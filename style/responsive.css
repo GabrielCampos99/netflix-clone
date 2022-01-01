@@ -1,0 +1,19 @@
+/* Quando a tela for até px 700*/
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+
+/* Quando a tela for mmaior que 1000px */
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%;
+  }
+}
